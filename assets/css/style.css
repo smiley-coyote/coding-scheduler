@@ -1,0 +1,52 @@
+body {
+  background-image: url("../images/escheresque.png");
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.wrapper {
+  width: 960px;
+  height: 350px;
+  margin: 100px auto;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 1em;
+}
+
+.wrapper h1{
+  text-align: center;
+}
+
+#main{
+  width: 250px;
+  margin: 0 auto;
+}
+
+#main button{
+  display: block;
+  margin: 0 auto;
+}
+
+#main select {
+  float: right;
+}
+
+#results{
+  display: none;
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+#results td {
+  border: 1px solid black;
+  padding: 2px;
+}
+#results th {
+  border: 1px solid black;
+  padding: 2px;
+}
+#results button {
+  display: block;
+  margin: 10px auto;
+}
+

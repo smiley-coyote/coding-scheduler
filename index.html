@@ -6,66 +6,78 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Coding Scheduler</title>
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+  <div class="wrapper">
   <h1>Welcome to the Coding Scheduler!</h1>
-  <div class="main">
+  <div id="main">
     <form>
       <ol>
-     <li>Monday</li>
+     <li>Monday
      <select id="monday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Tuesday</li>
+    </li>
+     <li>Tuesday
      <select id="tuesday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Wednesday</li>
+    </li>
+     <li>Wednesday
      <select id="wednesday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Thursday</li>
+    </li>
+     <li>Thursday
      <select id="thursday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Friday</li>
+    </li>
+     <li>Friday
      <select id="friday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Saturday</li>
+    </li>
+     <li>Saturday
      <select id="saturday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
-     <li>Sunday</li>
+    </li>
+     <li>Sunday
      <select id="sunday">
        <option value="off" selected>off</option>
        <option value="half day">half day</option>
        <option value="full day">full day</option>
        <option value="busy">busy day</option>
      </select>
+    </li>
     </ol>
     <button onclick="scheduler()">Make my schedule!</button>
     </form>
   </div>
+  <div id="results">
+  </div>
+</div>
 </body>
 <script src="./assets/javascript/app.js"></script>
 </html>
