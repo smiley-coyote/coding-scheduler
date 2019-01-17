@@ -90,7 +90,7 @@ function createSchedule() {
       myWeek[i].item = toDo[i].item
     }
     if (myWeek[i].work === "busy") {
-      myWeek[i].item = toDo[i].item + " casual and quick"
+      myWeek[i].item = toDo[i].item + " quick n' dirty"
     }
 
   }
